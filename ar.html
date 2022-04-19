@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .demo{
+                height: 100%;
+                weight: 100%;
+            }
+            .demo model-viewer{
+                
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="demo">
+            <model-viewer src="RobotExpressive.glb" auto-rotate camera-controls skybox-image="stadium_01_4k.hdr" animation="Running" autoplay ar></model-viewer>
+        </div>
+    </body>
+</html>
